@@ -8,8 +8,8 @@ KMETA = ""
 
 SRC_URI = "git://github.com/vtss/linux-stable.git;protocol=git;bareclone=1;branch=${KBRANCH}"
 
-SRCREV                = "b04a6112a8001462b0af176f7dc8c934aa77ba2c"
-SRCREV_machine        = "b04a6112a8001462b0af176f7dc8c934aa77ba2c"
+SRCREV                = "${AUTOREV}"
+SRCREV_machine        = "${AUTOREV}"
 
 PR = "r1"
 PV = "${LINUX_VERSION}+git${SRCPV}"
